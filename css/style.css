@@ -1,0 +1,67 @@
+/*The voices(lazyvim default template for html) told me to put
+* style.css into a folder. I do not plan having other files for css*/
+img {
+  width: 70vw;
+}
+
+body {
+  /*display: flex;
+  flex-direction: column;*/
+  padding-right: 10vw;
+  padding-left: 10vw;
+  align-items: center;
+  margin: 0;
+  color: #1ba098;
+  background-color: #051622;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: "Comic Sans MS", cursive;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 36px;
+  min-width: 100%;
+  padding: 30;
+  text-align: center;
+}
+
+#imagesandlinks {
+  width: 100%;
+}
+
+.imagelink {
+  margin: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.linkcell {
+  padding-left: 20px;
+}
+
+img {
+  margin-left: 0px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  align-items: stretch;
+  color: #1ba098;
+  min-width: 100%;
+}
+
+.footlinks {
+  color: #1ba098;
+  text-decoration: none;
+}
+
+#footlist {
+  padding: 30;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
